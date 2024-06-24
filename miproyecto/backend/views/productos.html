@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Productos</title>
+
+    
+    
+</head>
+<center>
+<body>
+
+    <link rel="stylesheet" href="styles.css">
+    <h1>Alta de Productos</h1>
+    
+    </style>
+    <form action="url_de_procesamiento" method="POST">
+        <!-- Campo para el nombre del producto -->
+        <label for="nombre">Nombre del Producto:</label><br>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <!-- Campo para la descripción del producto -->
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea>
+        <br><br>
+        <!-- Campo para el precio del producto -->
+        <label for="precio">Precio:</label><br>
+        <input type="number" id="precio" name="precio" step="0.01" required>
+        <br><br>
+        <!-- Botón para enviar el formulario -->
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</center>
+</html>

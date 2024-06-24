@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Categorías</title>
+    <article id="fondo">
+
+    
+    </article>
+    <link rel="stylesheet" href="estilo.css" /> 
+    <!-- Enlace al archivo CSS externo -->
+
+</head>
+
+
+
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li>
+                    <a href="#">Productos</a>
+                    <ul>
+                        <li><a href="#">productos</a></li>
+                        <li><a href="#">Categorías</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <center>
+
+        
+
+
+
+        <h1>Alta de productos</h1>
+    
+        <form action="url_de_procesamiento" method="POST">
+    
+            <!-- Campo para el ID del producto -->
+            
+            <label for="id_productos">Nombre del Producto:</label> 
+            <input type="number" id="id_productos" name="id_productos" required>
+            <br><br>
+
+            <!-- Campo para el nombre de la categoría -->
+            <label for="categoryname">Nombre de la Categoría:</label>
+            <input type="text" id="categoryname" name="categoryname" required>
+            <br><br>
+
+            <!--Campo para la imagen del producto-->
+            <label for="imagenproducto">Imagen del prodcuto </label>
+            <input type="file" id="imagenproducto" name="imagenproducto" required>
+            <br><br>
+
+            <!-- Campo para la descripción de la categoría -->
+            <label for="categoryDescripcion">Descripción :</label>
+            <textarea id="categoryDescripcion" name="categoryDescripcion" rows="4" cols="50"></textarea>
+            <br><br>
+
+            <!-- Campo del precio del prodcuto-->
+             <label for="precioproducto">Precio</label>
+             <input type="number" id="precioproducto" name="precioproducto" required>
+             <br><br>
+
+             <!--Campo de categoria del prodcuto-->
+             <label for="id_categoria">Categoria</label>
+             <select id="id_categoria" name="id_categoria">
+             <br><br>
+
+            <!-- Botones para guardar o cancelar -->
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Cancelar">
+
+            <br> <p> By </p>
+            <p>Diego Obando </p>
+       
+       
+        </form>
+        </center>
+    </body>
+
+
+
+</html>
